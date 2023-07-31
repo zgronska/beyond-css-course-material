@@ -1,0 +1,72 @@
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  text-align: center;
+  padding: 10vh 0;
+}
+
+.section-one {
+  background: linear-gradient(45deg, rgb(23, 94, 78), blue);
+}
+.section-two {
+  background: linear-gradient(-180deg, rgb(91, 132, 145), rgb(211, 29, 105));
+}
+.section-three {
+  background: linear-gradient(0deg, orange, yellow);
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 1px;
+  background-color: white;
+  margin: 1rem auto;
+}
+
+.button-one {
+  padding: 1em 3em;
+  color: white;
+  background-color: rgb(23, 94, 78);
+}
+.button-one:hover {
+  color: rgb(23, 94, 78);
+  background-color: white;
+}
+
+.button-two {
+  padding: 1em 3em;
+  color: white;
+  background-color: rgb(211, 29, 105);
+}
+.button-two:hover {
+  color: rgb(211, 29, 105);
+  background-color: white;
+}
+
+.badge-one {
+  padding: 1em 3em;
+  color: white;
+  background-color: rgb(23, 94, 78);
+}
+.badge-one:hover {
+  color: white;
+  background-color: rgb(23, 94, 78);
+}
+
+.badge-two {
+  padding: 1em 3em;
+  color: white;
+  background-color: rgb(211, 29, 105);
+}
+.badge-two:hover {
+  color: white;
+  background-color: rgb(211, 29, 105);
+}
+
+/*# sourceMappingURL=styles.css.map */
